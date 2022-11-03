@@ -4,7 +4,6 @@ struct Node
     struct Node *next;
 }
 
-*/
 
 class Solution
 {
