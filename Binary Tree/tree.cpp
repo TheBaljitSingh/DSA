@@ -65,6 +65,10 @@ void levelOrderTraversal(node* root){
     }
 }
 
+void reverseOrderTraversal(node* root){
+    
+
+}
 
 int main() {
 
@@ -77,6 +81,8 @@ int main() {
     cout<<"Printing the level order tree output"<<endl;
     levelOrderTraversal(root);
     // 1 3 7 -1 -1 11 -1 -1 5 17 -1 -1 -1
+    cout<<"Printing the reverse order tree"<<endl;
+    reverseOrderTraversal(root);
 
 
 
