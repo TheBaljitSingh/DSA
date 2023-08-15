@@ -66,13 +66,27 @@ bool checkPalindorm(string s, int i, int l){
 
 }
 
+int fibo(int n){
+    if(n<=1){
+        return n;
+    }
+
+    int last = fibo(n-1);
+    int sLast = fibo(n-2);
+
+    return last + sLast;
+
+}
 
 int main(){
 
+    int n = 4;
 
-    string s = "FMADAML";
+    cout<<fibo(n)<<endl;
 
-    cout<<checkPalindorm(s, 0, 6);
+    // string s = "FMADAML";
+
+    // cout<<checkPalindorm(s, 0, 6);
 
 
     // int arr[5] = {1,2,3,4,2};
