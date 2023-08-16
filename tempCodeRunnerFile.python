@@ -1,0 +1,9 @@
+a=[]
+n=int(input("Enter the size of list "))
+for i in range(n):
+    a.append(int(input()))
+for j in range(n-1):
+    if a[j]>a[j+1]:
+        a[j],a[j+1]=a[j+1],a[j]
+    print(n,a[n-1])
+print(n,a[n-1])
