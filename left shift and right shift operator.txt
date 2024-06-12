@@ -1,0 +1,12 @@
+left shift operator
+5<<1 (5 ko 1 bit left shift kar do)
+ye generally multiply by 2 ho jata hai chote numbers ke liyea.
+bade numbers ke liyea ye number ko -ve kar deta hai.
+for example 010..0010 left shift 1 karne par ye Banega 10000..0100 (starting me 1 bit ho to negative hota hai).
+
+Right Shift operator
+5>>1 = 5/2
+5>>2 = 5/2*2
+
+Note: +ve numbers ke liyea 'padding' 0 hoti hai, for -ve numbers 'padding' is compiler dependent hoti hai
+
